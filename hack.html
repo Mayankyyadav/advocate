@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawyer Finder</title>
+    <link rel="stylesheet" href="hack.css">
+</head>
+<body>
+    <main>
+        <section class="case-types">
+            <div class="case-type" data-case-type="criminal">
+                <h3>Criminal</h3>
+                <p class="case-type-details">Criminal cases involve crimes against the state or federal government.</p>
+            </div>
+            <div class="case-type" data-case-type="civil">
+                <h3>Civil</h3>
+                <p class="case-type-details">Civil cases involve disputes between individuals or organizations.</p>
+            </div>
+            <div class="case-type" data-case-type="family">
+                <h3>Family</h3>
+                <p class="case-type-details">Family cases involve disputes related to family relationships, such as divorce or child custody.</p>
+            </div>
+            <div class="case-type" data-case-type="immigration">
+                <h3>Immigration</h3>
+                <p class="case-type-details">Immigration cases involve issues related to immigration status, visas, and citizenship.</p>
+            </div>
+        </section>
+        <section class="info-section">
+            <h2>Enter Your Information</h2>
+            <form id="info-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+                <label for="case-type">Type of Case:</label>
+                <select id="case-type" name="case-type">
+                    <option value="">Select a case type</option>
+                    <option value="criminal">Criminal</option>
+                    <option value="civil">Civil</option>
+                    <option value="family">Family</option>
+                    <option value="immigration">Immigration</option>
+                </select><br><br>
+                <button type="submit">Find a Lawyer</button>
+            </form>
+        </section>
+        <section class="lawyers-section" id="lawyers-section">
+            <h2>Available Lawyers</h2>
+            <ul id="lawyers-list">
+                <li data-lawyer-id="1">Wolverine</li> 
+                <li data-lawyer-id="2">Iron Man</li>
+                 <li data-lawyer-id="3">Deadpool</li> 
+                 <li data-lawyer-id="4">Spider Man</li> 
+                 <li data-lawyer-id="5">Dare Devil</li>
+                 <li data-lawyer-id="6">Hulk</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="hack.js"></script>
+</body>
+</html>

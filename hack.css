@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.case-types {
+
+    display:flex;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+}
+
+.case-type {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.case-type h3 {
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fdfafa;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+.case-type-details {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    background-color: black;
+    color: #f7f2f2;
+}
+
+.case-type:hover.case-type-details {
+    display: block;
+}
+
+.case-type:nth-child(1) {
+    background-image: url(https://media.istockphoto.com/id/905514864/photo/criminal-with-knife-weapon-threatening-woman-in-underpass-crime.jpg?s=612x612&w=0&k=20&c=jpfN6B0D6cj04k4kMCv9dbrPA4h7Xx99DfA_2rd8jhg=);
+}
+
+.case-type:nth-child(2) {
+    background-image: url(https://5.imimg.com/data5/WZ/RC/RX/SELLER-58420122/civil-case-injunction--500x500.jpg);
+}
+
+.case-type:nth-child(3) {
+    background-image: url(https://www.legalservicesindia.com/law/uploads/200206091344.jpg);
+}
+
+.case-type:nth-child(4) {
+    background-image: url(https://www.shutterstock.com/image-photo/immigration-visa-united-states-america-600nw-1983291833.jpg);
+}
+.info-section {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.info-section h2 {
+    margin-top: 0;
+}
+
+.info-section label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.info-section input,.info-section select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.info-section button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.info-section button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.lawyers-section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.lawyers-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    cursor:pointer ;
+}
+
+.lawyers-list li {
+
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.lawyers-list li:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.lawyer-details {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.lawyer-details h3 {
+    margin-top: 0;
+}
