@@ -1,0 +1,131 @@
+/* CSS Code */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+ .lawyer-profile {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+  }
+  
+ .lawyer-profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 1px solid #ddd;
+  }
+  
+ .lawyer-profile h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+ .lawyer-profile h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+ .lawyer-profile ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+ .lawyer-profile li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+ .lawyer-profile li:last-child {
+    border-bottom: none;
+  }
+  
+ .lawyer-profile p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+ .lawyer-profile.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+ .lawyer-profile.contact-info,
+ .lawyer-profile.office-hours {
+    margin-top: 20px;
+  }
+  
+ .lawyer-profile.contact-info li,
+ .lawyer-profile.office-hours li,
+ .lawyer-profile.education li,
+ .lawyer-profile.experience li,
+ .lawyer-profile.skills li,
+ .lawyer-profile.awards li {
+    padding-left: 20px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+ .lawyer-profile.education,
+ .lawyer-profile.experience,
+ .lawyer-profile.skills,
+ .lawyer-profile.awards {
+    margin-top: 20px;
+  }
+  
+  input[type="text"], input[type="tel"], input[type="email"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="button"] {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #444;
+  }
