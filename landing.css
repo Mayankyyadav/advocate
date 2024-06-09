@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+margin: 0;
+padding: 0;
+}
+html, body{
+height: 100%;
+width: 100%;
+display: flex;
+padding-top: 106px;
+padding-left: 148px;
+overflow: hidden;
+background-repeat: no-repeat;
+}
+body{
+    background-image: linear-gradient(90deg, #6b6c71, #fffefe);
+}
+.lgo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 250px;
+    color: black;
+    font-size: 50PX;
+    font-family: "Indie Flower", cursive;
+  font-weight: 900;
+  font-style: normal;
+  
+  padding: 10px;
+  padding-left: 20px;
+}
+#advo,#clint{
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+    
+}
+#advo{
+    font-size: 20px;
+    background-color: #3b2d2d4e;
+    text-align: center;
+    backdrop-filter: blur(8px);
+    
+}
+#advo h1{
+    padding-top: 50px;
+}
+#clint h1{
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+#advo p{
+    padding: 60px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+#advo:hover{
+    box-shadow: black 2px 1px 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+#clint:hover{
+    box-shadow: black 2px 1px 10px;
+    transition: box-shadow 0.5s ease-in-out;
+}
+#advo button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #00000074;
+}
+#advo button:hover{
+    background-color:#2c2b2b74 ;
+}
+#clint{
+    margin-left: 90px;
+    backdrop-filter: blur(80%);
+    background-color: #3b2d2d4e;
+    text-align: center;
+}
+#clint p{
+    padding: 60px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+#clint button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #00000097;
+}
+#clint button:hover{
+    background-color:#2c2b2b74 ;
+}
+
+#law1{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 700px;
+    left: 100px;
+    z-index: 1;
+}
+#law2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 700px;
+    left: 700px;
+    z-index: 1;
+}
+#law3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 68px;
+    left: 800px;
+    z-index: 1;
+}
+#law4{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 700px;
+    left: 1300px;
+    z-index: 1;
+}
+#law5{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 200px;
+    left: 1300px;
+    z-index: 1;
+}
+#law6{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 156px;
+    left: 160px;
+    z-index: 1;
+}
+#law{
+    animation: popup 2s ease-in-out infinite;
+    position: relative;
+  transform: translateY(0);
+  transition: transform 0.7s ease-in;
+    height: 100px;
+    width: 100px;
+    top: 700px;
+    left: 1300px;
+    z-index: 1;
+}
+#adv a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 63px;
+    overflow: hidden;
+}
+h1 span{
+    display: inline-block;
+}
