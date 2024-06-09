@@ -108,3 +108,107 @@ body {
   .lawyer-profile .awards {
     margin-top: 20px;
   }
+  .edit-button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #ef9116;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button a{
+  color: white;
+  text-decoration: none;
+}
+.edit-button:hover {
+  color: black;
+  text-decoration: none;
+    background-color: #ef91166c;
+}
+
+.case-status {
+  display: flex;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+.case-status h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.case-boxes {
+  display:flex;
+  justify-content: space-between;
+}
+
+.case-box {
+  width: 30%;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 10px;
+}
+
+.case-box h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.case-box p {
+  font-size: 16px;
+  color: #666;
+}
+
+.case-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.case-box li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.case-box li:last-child {
+  border-bottom: none;
+}
+
+.case-box:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+}
+
+.complete {
+  background-color: #c6efce;
+}
+
+.ongoing {
+  background-color: #f7dc6f;
+}
+
+.upcoming {
+  background-color: #87ceeb;
+}
